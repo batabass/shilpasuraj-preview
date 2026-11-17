@@ -1,0 +1,423 @@
+/*
+ * Divi 4.27 layout engine (header, vertical nav, builder grid, modules, breakpoints).
+ * Values match Divi core, not a custom approximation.
+ */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  line-height: 1.7em;
+  background-color: #f5f5ef;
+}
+
+body, p {
+  font-family: Nunito, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Abhaya Libre", Georgia, serif;
+  color: #333;
+  padding-bottom: 10px;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+h1 { font-size: 30px; }
+h2 { font-size: 26px; }
+h3 { font-size: 22px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+a {
+  color: #2ea3f2;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+#page-container {
+  padding-top: 0;
+}
+
+/* ---- Header / vertical nav (Divi) ---- */
+#main-header {
+  background-color: #fff;
+  line-height: 23px;
+  font-weight: 500;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+.et_vertical_nav #main-header {
+  position: fixed;
+  height: 100%;
+  width: 215px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.et_vertical_nav #main-header .container {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.et_vertical_nav .logo_container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  float: none;
+}
+
+.et_vertical_nav #logo {
+  max-width: 100%;
+  max-height: none;
+  width: auto;
+  display: block;
+  float: none;
+}
+
+.et_vertical_nav #et-top-navigation {
+  float: none;
+  padding-top: 30px !important;
+  padding-left: 0;
+}
+
+.et_vertical_nav #top-menu-nav,
+.et_vertical_nav #top-menu {
+  float: none;
+  padding-top: 0;
+}
+
+#top-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.et_vertical_nav #top-menu > li {
+  float: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#top-menu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Nunito, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.et_vertical_nav #top-menu > li > a {
+  padding: 10px 0 !important;
+}
+
+#top-menu .sub-menu {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 10px;
+  position: relative;
+  width: auto;
+  background: transparent;
+  box-shadow: none;
+  z-index: 10;
+}
+
+.et_vertical_nav #top-menu li:hover > .sub-menu,
+.et_vertical_nav #top-menu li:focus-within > .sub-menu {
+  display: block;
+}
+
+#top-menu .sub-menu a {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 0;
+  color: #e8e6df;
+  text-transform: none;
+}
+
+.et_vertical_nav #et-main-area {
+  margin-left: 215px;
+}
+
+#et_mobile_nav_menu {
+  display: none;
+  float: right;
+}
+
+.mobile_nav {
+  position: relative;
+}
+
+.mobile_menu_bar {
+  display: block;
+  cursor: pointer;
+}
+
+.mobile_menu_bar:before {
+  content: "\2630";
+  font-size: 32px;
+  color: #fff;
+  line-height: 1;
+}
+
+.select_page {
+  display: none;
+}
+
+.et_mobile_menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  padding: 5%;
+  background: #272635;
+  z-index: 9999;
+  list-style: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mobile_nav.opened .et_mobile_menu {
+  display: block;
+}
+
+.et_mobile_menu a {
+  display: block;
+  color: #fff;
+  padding: 10px 5%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  font-weight: 700;
+}
+
+/* ---- Builder ---- */
+.et_pb_section {
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  padding: 0;
+}
+
+.et_pb_fullwidth_section {
+  padding: 0;
+}
+
+.et_pb_row {
+  width: 80%;
+  max-width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.et_pb_column {
+  float: left;
+  position: relative;
+  z-index: 2;
+  min-height: 1px;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.et_pb_column_4_4 { width: 100%; }
+.et_pb_column_3_4 { width: 74.25%; margin-right: 5.5%; }
+.et_pb_column_2_3 { width: 64.833%; margin-right: 5.5%; }
+.et_pb_column_1_2 { width: 47.25%; margin-right: 5.5%; }
+.et_pb_column_1_3 { width: 29.666%; margin-right: 5.5%; }
+.et_pb_column_1_4 { width: 22.125%; margin-right: 5.5%; }
+
+.et_pb_gutters2 .et_pb_column_4_4 { width: 100%; }
+.et_pb_gutters2 .et_pb_column_1_2 { width: 48.5%; margin-right: 3%; }
+.et_pb_gutters2 .et_pb_column_1_3 { width: 31.333%; margin-right: 3%; }
+.et_pb_gutters2 .et_pb_column_2_3 { width: 65.666%; margin-right: 3%; }
+.et_pb_gutters2 .et_pb_column_1_4 { width: 22.75%; margin-right: 3%; }
+
+.et_pb_row .et_pb_column.et-last-child,
+.et_pb_row .et_pb_column:last-child {
+  margin-right: 0 !important;
+}
+
+.et_pb_row:after,
+.et_pb_section:after,
+.et_builder_inner_content:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.et_pb_module {
+  position: relative;
+  background-size: cover;
+}
+
+.et_pb_text_inner,
+.et_pb_blurb_container,
+.et_pb_blurb_description {
+  word-wrap: break-word;
+}
+
+.et_pb_text_align_left { text-align: left; }
+.et_pb_text_align_center { text-align: center; }
+.et_pb_text_align_right { text-align: right; }
+
+.et_pb_fullwidth_image {
+  position: relative;
+  margin: 0;
+}
+
+.et_pb_fullwidth_image img {
+  width: 100%;
+  display: block;
+}
+
+.et_pb_image_wrap {
+  display: block;
+  position: relative;
+}
+
+.et_pb_image_wrap img {
+  display: block;
+}
+
+.et_pb_button {
+  font-family: Nunito, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.3em 1em;
+  line-height: 1.7em !important;
+  background-color: transparent;
+  border: 2px solid currentColor;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+.et_pb_button_module_wrapper {
+  margin-bottom: 0;
+}
+
+/* Tablet / phone — Divi 980 / 767 */
+@media (max-width: 980px) {
+  .et_vertical_nav #main-header {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 15px 0;
+    overflow: visible;
+  }
+
+  .et_vertical_nav #main-header .container {
+    padding: 0 30px;
+  }
+
+  .et_vertical_nav #et-main-area {
+    margin-left: 0;
+  }
+
+  .et_vertical_nav #et-top-navigation {
+    padding-top: 0 !important;
+  }
+
+  .et_vertical_nav #top-menu-nav {
+    display: none;
+  }
+
+  #et_mobile_nav_menu {
+    display: block;
+  }
+
+  .et_vertical_nav .logo_container {
+    width: auto;
+    max-width: 50%;
+  }
+
+  .et_vertical_nav #logo {
+    max-height: 54px;
+  }
+
+  .et_pb_row {
+    width: 80%;
+  }
+
+  .et_pb_column {
+    width: 100% !important;
+    margin-bottom: 30px;
+    margin-right: 0 !important;
+  }
+
+  .divi-hacks-mobile-reverse .et_pb_row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divi-hacks-mobile-reverse .first-on-mobile {
+    order: -1;
+  }
+}
+
+@media (max-width: 767px) {
+  .et_pb_row {
+    width: auto;
+    max-width: 100%;
+    padding: 0 30px;
+    margin: 0;
+  }
+
+  h1 { font-size: 26px; }
+  h2 { font-size: 23px; }
+  h3 { font-size: 20px; }
+}
+
+body.admin-bar.et_vertical_nav #main-header {
+  top: 32px;
+  height: calc(100% - 32px);
+}
+
+@media (max-width: 782px) {
+  body.admin-bar.et_vertical_nav #main-header {
+    top: 46px;
+    height: calc(100% - 46px);
+  }
+}
+
+@media (max-width: 980px) {
+  body.admin-bar.et_vertical_nav #main-header {
+    top: 0;
+    height: auto;
+  }
+}

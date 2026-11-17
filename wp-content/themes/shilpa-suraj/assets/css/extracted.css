@@ -1,0 +1,3719 @@
+/* from index.html */
+/* Original: https://fonts.googleapis.com/css?family=Abhaya+Libre:regular,500,600,700,800|Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&#038;subset=latin,latin-ext,sinhala,cyrillic,cyrillic-ext,vietnamese&#038;display=swap */
+      /* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      /* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      /* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */
+
+/* from index.html */
+.wp-block-audio :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme .wp-block-audio :where(figcaption) {
+        color: #ffffffa6
+      }
+
+      .wp-block-audio {
+        margin: 0 0 1em
+      }
+
+      .wp-block-code {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: Menlo, Consolas, monaco, monospace;
+        padding: .8em 1em
+      }
+
+      .wp-block-embed :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme .wp-block-embed :where(figcaption) {
+        color: #ffffffa6
+      }
+
+      .wp-block-embed {
+        margin: 0 0 1em
+      }
+
+      .blocks-gallery-caption {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme .blocks-gallery-caption {
+        color: #ffffffa6
+      }
+
+      :root :where(.wp-block-image figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme :root :where(.wp-block-image figcaption) {
+        color: #ffffffa6
+      }
+
+      .wp-block-image {
+        margin: 0 0 1em
+      }
+
+      .wp-block-pullquote {
+        border-bottom: 4px solid;
+        border-top: 4px solid;
+        color: currentColor;
+        margin-bottom: 1.75em
+      }
+
+      .wp-block-pullquote cite,
+      .wp-block-pullquote footer,
+      .wp-block-pullquote__citation {
+        color: currentColor;
+        font-size: .8125em;
+        font-style: normal;
+        text-transform: uppercase
+      }
+
+      .wp-block-quote {
+        border-left: .25em solid;
+        margin: 0 0 1.75em;
+        padding-left: 1em
+      }
+
+      .wp-block-quote cite,
+      .wp-block-quote footer {
+        color: currentColor;
+        font-size: .8125em;
+        font-style: normal;
+        position: relative
+      }
+
+      .wp-block-quote.has-text-align-right {
+        border-left: none;
+        border-right: .25em solid;
+        padding-left: 0;
+        padding-right: 1em
+      }
+
+      .wp-block-quote.has-text-align-center {
+        border: none;
+        padding-left: 0
+      }
+
+      .wp-block-quote.is-large,
+      .wp-block-quote.is-style-large,
+      .wp-block-quote.is-style-plain {
+        border: none
+      }
+
+      .wp-block-search .wp-block-search__label {
+        font-weight: 700
+      }
+
+      .wp-block-search__button {
+        border: 1px solid #ccc;
+        padding: .375em .625em
+      }
+
+      :where(.wp-block-group.has-background) {
+        padding: 1.25em 2.375em
+      }
+
+      .wp-block-separator.has-css-opacity {
+        opacity: .4
+      }
+
+      .wp-block-separator {
+        border: none;
+        border-bottom: 2px solid;
+        margin-left: auto;
+        margin-right: auto
+      }
+
+      .wp-block-separator.has-alpha-channel-opacity {
+        opacity: 1
+      }
+
+      .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+        width: 100px
+      }
+
+      .wp-block-separator.has-background:not(.is-style-dots) {
+        border-bottom: none;
+        height: 1px
+      }
+
+      .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+        height: 2px
+      }
+
+      .wp-block-table {
+        margin: 0 0 1em
+      }
+
+      .wp-block-table td,
+      .wp-block-table th {
+        word-break: normal
+      }
+
+      .wp-block-table :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme .wp-block-table :where(figcaption) {
+        color: #ffffffa6
+      }
+
+      .wp-block-video :where(figcaption) {
+        color: #555;
+        font-size: 13px;
+        text-align: center
+      }
+
+      .is-dark-theme .wp-block-video :where(figcaption) {
+        color: #ffffffa6
+      }
+
+      .wp-block-video {
+        margin: 0 0 1em
+      }
+
+      :root :where(.wp-block-template-part.has-background) {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 1.25em 2.375em
+      }
+
+/* from index.html */
+:root {
+        --wp--preset--aspect-ratio--square: 1;
+        --wp--preset--aspect-ratio--4-3: 4/3;
+        --wp--preset--aspect-ratio--3-4: 3/4;
+        --wp--preset--aspect-ratio--3-2: 3/2;
+        --wp--preset--aspect-ratio--2-3: 2/3;
+        --wp--preset--aspect-ratio--16-9: 16/9;
+        --wp--preset--aspect-ratio--9-16: 9/16;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+        --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+        --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+        --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+        --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+        --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+
+      :root {
+        --wp--style--global--content-size: 823px;
+        --wp--style--global--wide-size: 1080px;
+      }
+
+      :where(body) {
+        margin: 0;
+      }
+
+      .wp-site-blocks>.alignleft {
+        float: left;
+        margin-right: 2em;
+      }
+
+      .wp-site-blocks>.alignright {
+        float: right;
+        margin-left: 2em;
+      }
+
+      .wp-site-blocks>.aligncenter {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+
+      .is-layout-flow>.alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+
+      .is-layout-flow>.alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+
+      .is-layout-flow>.aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      .is-layout-constrained>.alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+
+      .is-layout-constrained>.alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+
+      .is-layout-constrained>.aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      .is-layout-constrained>.alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+
+      body .is-layout-flex {
+        display: flex;
+      }
+
+      .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .is-layout-flex> :is(*, div) {
+        margin: 0;
+      }
+
+      body .is-layout-grid {
+        display: grid;
+      }
+
+      .is-layout-grid> :is(*, div) {
+        margin: 0;
+      }
+
+      body {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+      }
+
+      :root :where(.wp-element-button, .wp-block-button__link) {
+        background-color: #32373c;
+        border-width: 0;
+        color: #fff;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        text-decoration: none;
+      }
+
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+      }
+
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+      }
+
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+      }
+
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+      }
+
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+      }
+
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+
+      :root :where(.wp-block-pullquote) {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+
+      /* @media (max-width: 768px) {
+  #main-header {
+    background-image: none; 
+  }
+} */
+
+/* from index.html */
+/** @import Custom Fonts - Keep at top of this style **/
+      body,
+      html {
+        overflow-x: hidden;
+      }
+
+      div#closebutton:before {
+        content: '\4d';
+        position: relative;
+        right: 0;
+        top: 0;
+        color: var(--close-button-color, #fff);
+        width: var(--close-button-width, 50px);
+        height: var(--close-button-height, 50px);
+        z-index: 2;
+        font-size: var(--close-button-size, 30px);
+        font-family: 'etmodules';
+        text-align: center;
+        line-height: var(--close-button-height, 50px);
+      }
+
+      div#closebutton {
+        position: absolute;
+        right: 0;
+        width: var(--close-button-width, 50px);
+        height: var(--close-button-height, 50px);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        text-shadow: var(--close-button-shadow, 0px 0px 5px rgba(0, 0, 0, 0.5));
+        cursor: pointer;
+      }
+
+      #divi-hacks-exit-popup [class*="lightbox-content"].mfp-hide {
+        display: block !important;
+      }
+
+      #divi-hacks-exit-popup .lightbox-overlay {
+        display: none;
+      }
+
+      #divi-hacks-scroll-popup [class*="lightbox-content"].mfp-hide {
+        display: block !important;
+      }
+
+      #divi-hacks-scroll-popup .lightbox-overlay {
+        display: none;
+      }
+
+      [id^="divi-hacks-"]>div#page-container {
+        padding-top: 0px !important;
+      }
+
+      /** Body Overall Font Weight **/
+      body {
+        font-weight:
+      }
+
+      /** Menu Animation Accent Color **/
+      .divi-hacks-animenu-1 #top-menu>li:before,
+      .divi-hacks-animenu-2 #top-menu li.current_page_item>a,
+      .divi-hacks-animenu-2 .et-fixed-header #top-menu li.current_page_item>a,
+      .divi-hacks-animenu-3 #top-menu>li.page_item::before {
+        border-color: inherit;
+      }
+
+      .divi-hacks-animenu-2 #top-menu li:not(.menu-item-has-children):not(.current_page_item):hover a {
+        box-shadow: 0px 5px 0px 0px inherit;
+      }
+
+      /** Main Header Menu Bar Link Hover Styles **/
+      .is-desktop #main-header #top-menu>li>a:hover {}
+
+      /** Main Header Dropdown Link Hover Styles **/
+      .is-desktop #main-header #top-menu>li:not(.module-in-menu)>ul>li a:hover {}
+
+      /** Top Header Menu Bar Link Hover Styles **/
+      .is-desktop #top-header #et-secondary-nav>li>a:hover {}
+
+      /** Top Header Dropdown Link Hover Styles **/
+      .is-desktop #top-header #et-secondary-nav>li:not(.module-in-menu)>ul>li a:hover {}
+
+      /** Custom Heading Font Family **/
+      .divi-hacks-heading-fonts h1,
+      .divi-hacks-heading-fonts h1 a {
+        color: inherit;
+      }
+
+      .divi-hacks-heading-fonts h2,
+      .divi-hacks-heading-fonts h2 a {
+        color: inherit;
+      }
+
+      .divi-hacks-heading-fonts div:not(.et-fb-form__toggle-title):not(.et-fb-module-settings):not(.et-fb-export-file-name-field):not(.et-fb-upload-file-container):not(.et-fb-import-options-field):not(.et-core-modal-header):not(.et_pb_gallery_title)>h3,
+      .divi-hacks-heading-fonts h3 a {
+        color: inherit;
+      }
+
+      .divi-hacks-heading-fonts h4,
+      .divi-hacks-heading-fonts h4 a {
+        color: inherit;
+      }
+
+      .divi-hacks-heading-fonts h5,
+      .divi-hacks-heading-fonts h5 a {
+        color: inherit;
+      }
+
+      .divi-hacks-heading-fonts h6,
+      .divi-hacks-heading-fonts h6 a {
+        color: inherit;
+      }
+
+      /** Logo Styles **/
+      #logo {}
+
+      /** Primary Nav Font Awesome Icon Size **/
+      .divi-hacks-font-awesome-icons #main-header .fab>a:before,
+      .divi-hacks-font-awesome-icons #main-header .far>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fas>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fal>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fa>a:before {
+        font-size: 1em
+      }
+
+      /** Secondary Nav Font Awesome Icon Size **/
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fab>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .far>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fas>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fal>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fa>a:before {
+        font-size: 1em
+      }
+
+      /** Nav Font Awesome Icon colors **/
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fa>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fas>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .far>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fab>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fal>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fa>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fas>a:before,
+      .divi-hacks-font-awesome-icons #main-header .far>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fab>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fal>a:before {
+        color: inherit;
+      }
+
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fa>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fas>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .far>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fab>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fal>a:before,
+      .divi-hacks-font-awesome-icons #main-header .sub-menu .fa>a:before,
+      .divi-hacks-font-awesome-icons #main-header .sub-menu .fas>a:before,
+      .divi-hacks-font-awesome-icons #main-header .sub-menu .far>a:before,
+      .divi-hacks-font-awesome-icons #main-header .sub-menu .fab>a:before,
+      .divi-hacks-font-awesome-icons #main-header .sub-menu .fal>a:before {
+        color: inherit;
+        align-self: center;
+      }
+
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fa>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fas>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .far>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fab>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fal>a:before {
+        color: inherit;
+      }
+
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fa>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fas>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .far>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fab>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fal>a:before {
+        color: inherit;
+      }
+
+      /** Primary Nav Dropdown Column Left & Right Padding **/
+      .is-desktop.divi-hacks-nav-columns #top-menu>li.nav-columns:not(.module-in-menu)>ul>li {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+
+      /** Secondary Nav Dropdown Column Left & Right Padding **/
+      .is-desktop.divi-hacks-nav-columns #et-secondary-nav>li.nav-columns:not(.module-in-menu)>ul>li {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+
+      /** Primary Dropdown Child Elements Line Height **/
+      .divi-hacks-nav-columns.is-desktop li.nav-columns:not(.module-in-menu) ul li a,
+      .divi-hacks-nav-columns.is-desktop #main-header .nav li ul li a {
+        line-height: 2em;
+      }
+
+      /** Secondary Nav Dropdown Child Elements Line Height **/
+      .divi-hacks-nav-columns.is-desktop #et-secondary-nav.menu li:not(.module-in-menu) ul li a {
+        line-height: 2em;
+      }
+
+      /** Primary Nav Dropdown Text Align **/
+      .is-desktop li.nav-columns:not(.module-in-menu) ul li a,
+      .is-desktop #main-header .nav li:not(.module-in-menu) ul li a {
+        justify-content: ;
+      }
+
+      /** Secondary Nav Dropdown Text Align **/
+      .is-desktop #et-secondary-nav.menu li:not(.module-in-menu) ul li a {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: ;
+      }
+
+      /** Secondary Nav Current Page Item Text Color **/
+      #et-secondary-nav li.current_page_item>a,
+      #et-secondary-nav li.current-menu-item>a:before {
+        color: inherit !important;
+      }
+
+      /** Main Header Nav Dropdown Parent Styles **/
+      .divi-hacks-nav-columns.is-desktop #main-header li.nav-columns:not(.module-in-menu)>ul>li>a {}
+
+      /** Top Header Nav Dropdown Parent Styles **/
+      .divi-hacks-nav-columns.is-desktop #et-secondary-nav li.nav-columns:not(.module-in-menu)>ul>li>a {}
+
+      /** Main Header Current Item Styles **/
+      #main-header li.current_page_item>a {}
+
+      /** Top Header Current Item Styles **/
+      #et-secondary-nav li.current_page_item>a {}
+
+      /** Primary Dropdown Width **/
+      .is-desktop #top-menu li:not(.module-in-menu):not(.nav-columns):not(.mega-menu) ul.sub-menu {
+        width: auto;
+        max-width: 240px;
+      }
+
+      .is-desktop #top-menu li:not(.module-in-menu):not(.nav-columns):not(.mega-menu) ul.sub-menu a {
+        width: calc(240px - 40px);
+      }
+
+      /** Primary Dropdown Link Color **/
+      .is-desktop #top-menu li:not(.module-in-menu):not(.nav-columns) ul.sub-menu a:not(:hover) {
+        color: #ffffff !important;
+      }
+
+      /** Primary Dropdown Line Height **/
+      .is-desktop #top-menu li:not(.module-in-menu):not(.nav-columns) ul.sub-menu a {
+        line-height: 1.2em !important;
+      }
+
+      /** Secondary Dropdown Width **/
+      .is-desktop #et-secondary-nav li:not(.module-in-menu):not(.nav-columns):not(.mega-menu) ul.sub-menu {
+        width: 220px;
+      }
+
+      .is-desktop #et-secondary-nav li:not(.module-in-menu):not(.nav-columns):not(.mega-menu) ul.sub-menu a {
+        width: calc(220px - 2em);
+        margin-left: -1em;
+      }
+
+      /** Secondary Dropdown Link Color **/
+      .is-desktop #et-secondary-nav li:not(.module-in-menu):not(.nav-columns) ul.sub-menu a:not(:hover) {
+        color: inherit !important;
+      }
+
+      /** Secondary Dropdown Line Height **/
+      .is-desktop #et-secondary-nav li:not(.module-in-menu):not(.nav-columns) ul.sub-menu a {
+        line-height: 1.2em !important;
+      }
+
+      /** Primary Nav Columns Width **/
+      .divi-hacks-nav-columns.is-desktop #main-header li.nav-columns:not(.module-in-menu) ul li a {
+        width: 120px !important;
+      }
+
+      /** Secondary Nav Columns Width **/
+      .divi-hacks-nav-columns.is-desktop #et-secondary-nav li.nav-columns:not(.module-in-menu) ul li a {
+        width: 120px !important;
+      }
+
+      /** MOBILE MENU **/
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et-cart-info span:before,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et-cart-info span:before {
+        color: #1b1d1e;
+      }
+
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et_mobile_menu li a,
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et_mobile_menu li a {
+        color: #ffffff;
+      }
+
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .mobile_nav.opened .mobile_menu_bar_toggle::before,
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .mobile_nav.opened .mobile_menu_bar_toggle::before {
+        color: #ffffff;
+      }
+
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .mobile_nav.closed .mobile_menu_bar_toggle::before,
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .mobile_nav.closed .mobile_menu_bar_toggle::before {
+        color: #ffffff;
+      }
+
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header #mobile_menu .current_page_item>a,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header #mobile_menu .current_page_item>a {
+        color: #bca392;
+      }
+
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et_mobile_menu>li>ul.sub-menu,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et_mobile_menu>li>ul.sub-menu li.menu-item a {
+        background-color: rgba(232, 233, 243, 0.11);
+      }
+
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et_mobile_menu li a,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et_mobile_menu li a {
+        letter-spacing: 0px;
+      }
+
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et_mobile_menu .et_mobile_menu>li>a,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et_mobile_menu .et_mobile_menu>li>a {
+        line-height: 1em;
+      }
+
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et_mobile_menu .sub-menu>li>a,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et_mobile_menu .sub-menu>li>a {
+        line-height: 1em;
+      }
+
+      /*  HEADER   */
+      #top-header {
+        background-image: url('');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      #main-header {
+        background-image: url('https://shilpasuraj.com/wp-content/uploads/2018/08/paper-for-dark-background.png');
+        /* background-image: url('wp-content/uploads/2022/12/rrr.jpeg'); */
+        background-size: fit;
+        background-repeat: repeat;
+        background-position: center;
+      }
+
+      /*  FOOTER   */
+      div#footer-bottom {
+        position: relative;
+        z-index: 1;
+        align-items: center;
+        display: flex;
+      }
+
+     
+
+      /** Secondary Nav Current Page Item Text Color **/
+      #main-footer li.current_page_item>a,
+      #main-footer li.current-menu-item>a:before {
+        color: inherit !important;
+      }
+
+      /** Secondary Nav Font Awesome Icon Size **/
+      .divi-hacks-font-awesome-icons #main-footer .fab>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .far>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fas>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fal>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fa>a:before {
+        font-size: 1em
+      }
+
+      /** Secondary Nav Font Awesome Icon Color **/
+      .divi-hacks-font-awesome-icons #main-footer .fa>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fas>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .far>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fab>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fal>a:before {
+        color: inherit;
+      }
+
+      /** Main Footer Background **/
+      #main-footer {
+        background-image: url('');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      /** DH Footer Copyright **/
+      .dh-footer-copyright {
+        display: ;
+      }
+
+      /*  CUSTOM CSS  */
+      @media only screen and (max-width:767px) {}
+
+      @media only screen and (max-width:980px) {}
+
+      @media only screen and (min-width:480px) and (max-width:981px) {}
+
+      @media only screen and (min-width:981px) {}
+
+      /** Login Form Error Messages **/
+
+/* from index.html */
+/** Footer Menu Left Alignment **/
+      #main-footer #et-footer-nav ul {
+        display: inline-flex;
+        justify-content: flex-start;
+        width: 100%;
+        flex-wrap: wrap;
+      }
+
+/* from index.html */
+.divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et_mobile_menu,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #mobile_menu {
+        /* background: rgba(0, 0, 0, 0.99);
+        background: -moz-linear-gradient(top left, #272635 0%, #272635 100%);
+        background: -webkit-linear-gradient(top left, #272635 0%, #272635 100%);
+        background: -ms-linear-gradient(top left, #272635 0%, #272635 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#272635', endColorstr='#272635', GradientType=1); */
+        /* background-color: inherit; */
+        /* Set a solid background color with the image */
+    background-color: rgba(39, 38, 53, 1); /* Solid background color */
+    background-image: url(https://shilpasuraj.com/wp-content/uploads/2018/08/paper-for-dark-background.png);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-position: center;
+    /* Optional: Adjusting the opacity of the background image */
+    background-blend-mode: normal; /* Ensure no blending */
+      }
+
+/* from index.html */
+#main-header:before {
+        background-image: -moz-linear-gradient(left, rgba(56, 62, 89, 0) 0%, rgba(56, 62, 89, 0) 100%) !important;
+        background: -webkit-linear-gradient(left, rgba(56, 62, 89, 0) 0%, rgba(56, 62, 89, 0) 100%) !important;
+        background: -ms-linear-gradient(left, rgba(56, 62, 89, 0) 0%, rgba(56, 62, 89, 0) 100%) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(56,62,89,0)', endColorstr='rgba(56,62,89,0)', GradientType=1) !important;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        z-index: 1;
+      }
+
+/* from index.html */
+#top-header:before {
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) !important;
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) !important;
+        background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(0,0,0,0)', endColorstr='rgba(0,0,0,0)', GradientType=1) !important;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        z-index: 1;
+      }
+
+      #top-header .container {
+        z-index: 2;
+      }
+
+/* from index.html */
+#main-footer:before {
+        background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) !important;
+        background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) !important;
+        background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(0,0,0,0)', endColorstr='rgba(0,0,0,0)', GradientType=1) !important;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        z-index: 1;
+      }
+
+      #main-footer {
+        position: relative;
+      }
+
+      #main-footer .container {
+        z-index: 2;
+      }
+
+/* from index.html */
+.et_monarch .et_social_sidebar_networks li,
+      .et_monarch .et_social_mobile li {
+        background: #272635;
+      }
+
+      .et_monarch .et_social_sidebar_networks .et_social_icons_container li:hover,
+      .et_monarch .et_social_mobile .et_social_icons_container li:hover {
+        background: #bca392 !important;
+      }
+
+      .et_social_sidebar_border li {
+        border-color: #bca392 !important;
+      }
+
+      .et_monarch .et_social_sidebar_networks .et_social_icons_container li i,
+      .et_monarch .et_social_sidebar_networks .et_social_icons_container li .et_social_count,
+      .et_monarch .et_social_mobile .et_social_icons_container li i,
+      .et_monarch .et_social_mobile .et_social_icons_container li .et_social_count {
+        color: #bca392;
+      }
+
+      .et_monarch .et_social_sidebar_networks .et_social_icons_container li:hover i,
+      .et_monarch .et_social_sidebar_networks .et_social_icons_container li:hover .et_social_count,
+      .et_monarch .et_social_mobile .et_social_icons_container li:hover i,
+      .et_monarch .et_social_mobile .et_social_icons_container li:hover .et_social_count {
+        color: #272635 !important;
+      }
+
+/* from index.html */
+.mobile-menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  z-index: 999;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.mobile-menu-container.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-menu-container nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-menu-container nav li {
+  margin-bottom: 20px;
+}
+
+.mobile-menu-container nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.mobile-menu-container nav a:hover {
+  color: #ccc;
+}
+
+.mobile-menu-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 24px;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-container,
+  .mobile-menu-toggle {
+    display: none;
+  }
+}
+
+
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+  .wp-image-220194 {
+    width: auto;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For Tablets (including iPad Pro 11") */
+@media (min-width: 481px) and (max-width: 834px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For iPad Pro 12.9" */
+@media (min-width: 835px) and (max-width: 1024px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For Desktop */
+@media (min-width: 1025px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio on desktop */
+    object-fit: contain; /* Image will scale to fit while maintaining aspect ratio */
+  }
+}
+
+.author_note {
+  text-align: center;
+}
+
+.author_note.h1 {
+  text-align: center;
+}
+
+
+
+
+blockquote {
+  color: #5b544c;
+  font-size: 40px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  padding: 20px; /* Add some padding for aesthetics */
+}
+
+blockquote p {
+  font-weight: bold;
+  margin-bottom: 0;
+  position: relative; /* Ensures pseudo-elements are positioned relative to the blockquote */
+}
+
+blockquote p::before,
+blockquote p::after {
+  font-family: Georgia, serif;
+  font-size: 8rem;
+  position: absolute;
+  opacity: 0.7;
+}
+
+blockquote p::before {
+  content: "“";
+  top: -20px; /* Adjust based on font size */
+  left: -40px; /* Adjust to position outside the text */
+}
+
+blockquote p::after {
+  content: "”";
+  bottom: -30px; /* Moves the closing quote to the bottom */
+  right: -40px; /* Moves it to the right of the text */
+}
+
+/* Mobile-specific styles */
+@media (max-width: 767px) {
+  blockquote {
+    width: 100%;
+  }
+  blockquote p::before,
+  blockquote p::after {
+    font-size: 5rem; /* Decrease the size of quotes on mobile */
+   
+  }
+}
+
+/* .carousel {
+  padding: 0.4rem;
+  background: #bdbdbd;
+  box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px;
+  border-radius: 8px;
+  max-width: 1200px;
+  width: 100vw;
+  margin: auto;
+}
+.image-container {
+  gap: 5px;
+  display: flex;
+  overflow-x: auto;
+
+}
+
+.image-container img,
+.image-container video{
+ height: 400px;
+ width: 700px;
+
+} */
+
+.carousel {
+  padding: 0.4rem;
+  /* background: inherit; */
+  /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+  /* border-radius: 8px; */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: fit-content; /* Adjust dynamically to content */
+}
+
+.image-container {
+  display: flex;
+  gap: 10px; /* Space between videos/images */
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px; /* Ensure first item isn't cut */
+  padding-right: 10px; /* Ensure last item isn't cut */
+}
+
+.image-container img,
+.image-container video {
+  height: 600px;
+  width: 100%; /* Flexible width */
+  max-width: 700px; /* Consistent max size */
+  object-fit: cover;
+  border-radius: 8px;
+  scroll-snap-align: center;
+}
+
+ /* For Mobile */
+ @media (max-width: 768px) {
+  .image-container img,
+.image-container video  {
+  height: 500px;
+    }
+  }
+
+  /* For Tablet or Medium Screens */
+  @media (max-width: 1024px) and (min-width: 769px) {
+    .image-container img,
+.image-container video  {
+  height: 500px;
+    }
+  }
+
+
+.newsletter-signup {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 90%; /* Reduced width for smaller screens */
+  max-width: 800px; 
+  margin: 0 auto; /* Center the container itself horizontally */
+  gap: 10px;
+  padding: 20px; /* Slightly smaller padding for mobile */
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+.signup-button {
+  width: 100%; /* Full width on mobile */
+  max-width: 300px; /* Prevents the button from becoming too wide */
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: black; /* Button color */
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .newsletter-signup {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    gap: 15px; /* Add spacing between stacked items */
+  }
+
+  .signup-button {
+    width: 100%; /* Button spans full width */
+    max-width: none; /* Remove max-width restriction for mobile */
+  }
+}
+
+.signup-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.signup-button:active {
+  background-color: #004080; /* Even darker when pressed */
+}
+
+.desktop-text {
+    display: block;
+}
+.mobile-text {
+    display: none;
+}
+
+/* For mobile screens: Show mobile text, hide desktop text */
+@media (max-width: 767px) {
+    .desktop-text {
+        display: none;
+    }
+    .mobile-text {
+        display: block;
+    }
+}
+
+/* from index.html */
+@keyframes slide-in {
+        0% {
+          transform: translate(10%, -50%);
+          opacity: 0;
+        }
+        100% {
+          transform: translate(-30%, -50%);
+          opacity: 1;
+        }
+      }
+
+      @keyframes slide-from-left {
+        0% {
+          transform: translate(-50%, 0); /* Start from the left */
+          opacity: 0;
+        }
+        100% {
+          transform: translate(0, 0); /* Final position */
+          opacity: 1;
+        }
+      }
+
+/* from index.html */
+@media (max-width: 768px) {
+                        .et_pb_section_4 {
+                          background-image: url('https://shilpasuraj.com/wp-content/uploads/2022/12/book\ section\ phone.jpeg') !important;
+                        }
+                      }
+
+/* from index.html */
+@media (max-width: 767px) {
+                                h2 {
+                                  font-size: 20px !important;  /* Adjust the font size for mobile */
+                                }
+                              }
+
+/* from index.html */
+@media (max-width: 767px) {
+                          #rights {
+                            font-size: 5px !important;  /* Adjust the font size for mobile */
+                          }
+
+                          #email {
+                            font-size: 11px !important;  /* Adjust the font size for mobile */
+                          }
+                        }
+
+/* from index.html */
+footer {
+  background-color: #66d5d5a7;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0px -15px 23px -14px rgba(0,0,0,0.75);
+}
+
+footer p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+footer hr {
+  border: 1px solid #39a62b;
+  width: 80px;
+  margin: 10px auto;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+}
+
+/* from books.html */
+.mobile-menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  z-index: 999;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.mobile-menu-container.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-menu-container nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-menu-container nav li {
+  margin-bottom: 20px;
+}
+
+.mobile-menu-container nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.mobile-menu-container nav a:hover {
+  color: #ccc;
+}
+
+.mobile-menu-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 24px;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-container,
+  .mobile-menu-toggle {
+    display: none;
+  }
+}
+
+
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+  .wp-image-220194 {
+    width: auto;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For Tablets (including iPad Pro 11") */
+@media (min-width: 481px) and (max-width: 834px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For iPad Pro 12.9" */
+@media (min-width: 835px) and (max-width: 1024px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For Desktop */
+@media (min-width: 1025px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio on desktop */
+    object-fit: contain; /* Image will scale to fit while maintaining aspect ratio */
+  }
+}
+
+.author_note {
+  text-align: center;
+}
+
+.author_note.h1 {
+  text-align: center;
+}
+
+/* .blockquote {
+    padding: 60px 80px 40px;
+    position: relative;
+}
+.blockquote p {
+    font-family: "Utopia-italic";
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+.blockquote:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  
+  content:"\f10d";
+  font-size: 50px;
+  color: rgba(0,0,0,0.1);
+   
+}
+
+.blockquote::after {
+    content: "";
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    height: 3px;
+    width: 200px;
+} */
+
+
+blockquote {
+  color: #5b544c;
+  font-size: 40px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  padding: 20px; /* Add some padding for aesthetics */
+}
+
+blockquote p {
+  font-style: italic;
+  margin-bottom: 0;
+  position: relative; /* Ensures pseudo-elements are positioned relative to the blockquote */
+}
+
+blockquote p::before,
+blockquote p::after {
+  font-family: Georgia, serif;
+  font-size: 8rem;
+  position: absolute;
+  opacity: 0.7;
+}
+
+blockquote p::before {
+  content: "“";
+  top: -20px; /* Adjust based on font size */
+  left: -40px; /* Adjust to position outside the text */
+}
+
+blockquote p::after {
+  content: "”";
+  bottom: -30px; /* Moves the closing quote to the bottom */
+  right: -40px; /* Moves it to the right of the text */
+}
+
+.carousel {
+  padding: 0.4rem;
+  background: #bdbdbd;
+  box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px;
+  border-radius: 8px;
+  max-width: 1200px;
+  width: 100vw;
+  margin: auto;
+}
+.image-container {
+  gap: 5px;
+  display: flex;
+  overflow-x: auto;
+
+}
+
+.image-container img{
+ height: 600px;
+ width: 800px;
+
+}
+
+.newsletter-signup {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; 
+  margin: 0 auto; /* Center horizontally */
+  gap: 10px;
+}
+
+.email-input {
+  width: 70%; /* 70% for the input */
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px; /* Rounded left side */
+  outline: none;
+}
+
+.signup-button {
+  width: 20%; /* 30% for the button */
+  padding: 10px;
+  font-size: 16px;
+  background-color: black; /* Button color */
+  color: white;
+  border: 1px solid black;
+  border-radius: 0 4px 4px 0; /* Rounded right side */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.signup-button:active {
+  background-color: #004080; /* Even darker when pressed */
+}
+
+.book-section {
+  text-align: center;
+  padding: 20px;
+  /* border-bottom: 1.2px solid rgb(55, 54, 54); */
+}
+
+.book-covers {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.book-covers img {
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+  box-shadow: 4px 5px 6px 3px rgb(0,0,0,0.5) ;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.book-covers img:hover {
+  transform: scale(1.05);
+}
+
+.book-description {
+    margin: 20px auto; /* Center the description horizontally */
+  width: 70%; /* Limit the width to 70% */
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: center; /* Center-align the text */
+}
+
+.action-button {
+  margin-top: 20px;
+}
+
+.learn-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5a2d1f;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.learn-more:hover {
+  background-color: #3d1e13;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .book-covers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book-covers img {
+    margin-bottom: 15px;
+  }
+
+  .book-description {
+    font-size: 0.9rem;
+  }
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* gap: 20px; */
+  padding: 20px;
+}
+
+.card {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+  /* border: 1px solid #ccc; */
+  /* border-radius: 8px; */
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.1);
+  /* border-top: 2px solid #c0b59c;
+  border-bottom: 1px solid black; */
+}
+
+.card h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.card img {
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 10px;
+  box-shadow: 4px 5px 6px 3px rgb(0,0,0,0.5) ;
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+}
+
+
+.card p {
+  font-size: 1em;
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.card button {
+  background-color: #6a4bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #5430d1;
+}
+/* 
+html {
+  font-family: 'Inter', Arial, sans-serif;
+} */
+
+/* from books.html */
+@keyframes slide-in {
+        0% {
+          transform: translate(10%, -50%);
+          opacity: 0;
+        }
+        100% {
+          transform: translate(-30%, -50%);
+          opacity: 1;
+        }
+      }
+
+      @keyframes slide-from-left {
+        0% {
+          transform: translate(-50%, 0); 
+          opacity: 0;
+        }
+        100% {
+          transform: translate(0, 0); 
+          opacity: 1;
+        }
+      }
+
+/* from books.html */
+@media (max-width: 767px) {
+                            #rights {
+                              font-size: 5px !important;  /* Adjust the font size for mobile */
+                            }
+  
+                            #email {
+                              font-size: 11px !important;  /* Adjust the font size for mobile */
+                            }
+                          }
+
+/* from books.html */
+footer {
+    background-color: #66d5d5a7;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px -15px 23px -14px rgba(0,0,0,0.75);
+  }
+  
+  footer p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  footer hr {
+    border: 1px solid #39a62b;
+    width: 80px;
+    margin: 10px auto;
+  }
+  
+  footer div {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+
+/* from hey_kitty.html */
+/** @import Custom Fonts - Keep at top of this style **/
+      body,
+      html {
+        overflow-x: hidden;
+      }
+
+      div#closebutton:before {
+        content: '\4d';
+        position: relative;
+        right: 0;
+        top: 0;
+        color: var(--close-button-color, #fff);
+        width: var(--close-button-width, 50px);
+        height: var(--close-button-height, 50px);
+        z-index: 2;
+        font-size: var(--close-button-size, 30px);
+        font-family: 'etmodules';
+        text-align: center;
+        line-height: var(--close-button-height, 50px);
+      }
+
+      div#closebutton {
+        position: absolute;
+        right: 0;
+        width: var(--close-button-width, 50px);
+        height: var(--close-button-height, 50px);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        text-shadow: var(--close-button-shadow, 0px 0px 5px rgba(0, 0, 0, 0.5));
+        cursor: pointer;
+      }
+
+      #divi-hacks-exit-popup [class*="lightbox-content"].mfp-hide {
+        display: block !important;
+      }
+
+      #divi-hacks-exit-popup .lightbox-overlay {
+        display: none;
+      }
+
+      #divi-hacks-scroll-popup [class*="lightbox-content"].mfp-hide {
+        display: block !important;
+      }
+
+      #divi-hacks-scroll-popup .lightbox-overlay {
+        display: none;
+      }
+
+      [id^="divi-hacks-"]>div#page-container {
+        padding-top: 0px !important;
+      }
+
+      /** Body Overall Font Weight **/
+      body {
+        font-weight:
+      }
+
+      /** Menu Animation Accent Color **/
+      .divi-hacks-animenu-1 #top-menu>li:before,
+      .divi-hacks-animenu-2 #top-menu li.current_page_item>a,
+      .divi-hacks-animenu-2 .et-fixed-header #top-menu li.current_page_item>a,
+      .divi-hacks-animenu-3 #top-menu>li.page_item::before {
+        border-color: inherit;
+      }
+
+      .divi-hacks-animenu-2 #top-menu li:not(.menu-item-has-children):not(.current_page_item):hover a {
+        box-shadow: 0px 5px 0px 0px inherit;
+      }
+
+      /** Main Header Menu Bar Link Hover Styles **/
+      .is-desktop #main-header #top-menu>li>a:hover {}
+
+      /** Main Header Dropdown Link Hover Styles **/
+      .is-desktop #main-header #top-menu>li:not(.module-in-menu)>ul>li a:hover {}
+
+      /** Top Header Menu Bar Link Hover Styles **/
+      .is-desktop #top-header #et-secondary-nav>li>a:hover {}
+
+      /** Top Header Dropdown Link Hover Styles **/
+      .is-desktop #top-header #et-secondary-nav>li:not(.module-in-menu)>ul>li a:hover {}
+
+      /** Custom Heading Font Family **/
+      .divi-hacks-heading-fonts h1,
+      .divi-hacks-heading-fonts h1 a {
+        color: inherit;
+      }
+
+      .divi-hacks-heading-fonts h2,
+      .divi-hacks-heading-fonts h2 a {
+        color: inherit;
+      }
+
+      .divi-hacks-heading-fonts div:not(.et-fb-form__toggle-title):not(.et-fb-module-settings):not(.et-fb-export-file-name-field):not(.et-fb-upload-file-container):not(.et-fb-import-options-field):not(.et-core-modal-header):not(.et_pb_gallery_title)>h3,
+      .divi-hacks-heading-fonts h3 a {
+        color: inherit;
+      }
+
+      .divi-hacks-heading-fonts h4,
+      .divi-hacks-heading-fonts h4 a {
+        color: inherit;
+      }
+
+      .divi-hacks-heading-fonts h5,
+      .divi-hacks-heading-fonts h5 a {
+        color: inherit;
+      }
+
+      .divi-hacks-heading-fonts h6,
+      .divi-hacks-heading-fonts h6 a {
+        color: inherit;
+      }
+
+      /** Logo Styles **/
+      #logo {}
+
+      /** Primary Nav Font Awesome Icon Size **/
+      .divi-hacks-font-awesome-icons #main-header .fab>a:before,
+      .divi-hacks-font-awesome-icons #main-header .far>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fas>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fal>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fa>a:before {
+        font-size: 1em
+      }
+
+      /** Secondary Nav Font Awesome Icon Size **/
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fab>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .far>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fas>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fal>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fa>a:before {
+        font-size: 1em
+      }
+
+      /** Nav Font Awesome Icon colors **/
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fa>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fas>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .far>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fab>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fal>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fa>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fas>a:before,
+      .divi-hacks-font-awesome-icons #main-header .far>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fab>a:before,
+      .divi-hacks-font-awesome-icons #main-header .fal>a:before {
+        color: inherit;
+      }
+
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fa>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fas>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .far>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fab>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fal>a:before,
+      .divi-hacks-font-awesome-icons #main-header .sub-menu .fa>a:before,
+      .divi-hacks-font-awesome-icons #main-header .sub-menu .fas>a:before,
+      .divi-hacks-font-awesome-icons #main-header .sub-menu .far>a:before,
+      .divi-hacks-font-awesome-icons #main-header .sub-menu .fab>a:before,
+      .divi-hacks-font-awesome-icons #main-header .sub-menu .fal>a:before {
+        color: inherit;
+        align-self: center;
+      }
+
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fa>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fas>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .far>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fab>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .fal>a:before {
+        color: inherit;
+      }
+
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fa>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fas>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .far>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fab>a:before,
+      .divi-hacks-font-awesome-icons #et-secondary-nav .sub-menu .fal>a:before {
+        color: inherit;
+      }
+
+      /** Primary Nav Dropdown Column Left & Right Padding **/
+      .is-desktop.divi-hacks-nav-columns #top-menu>li.nav-columns:not(.module-in-menu)>ul>li {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+
+      /** Secondary Nav Dropdown Column Left & Right Padding **/
+      .is-desktop.divi-hacks-nav-columns #et-secondary-nav>li.nav-columns:not(.module-in-menu)>ul>li {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+
+      /** Primary Dropdown Child Elements Line Height **/
+      .divi-hacks-nav-columns.is-desktop li.nav-columns:not(.module-in-menu) ul li a,
+      .divi-hacks-nav-columns.is-desktop #main-header .nav li ul li a {
+        line-height: 2em;
+      }
+
+      /** Secondary Nav Dropdown Child Elements Line Height **/
+      .divi-hacks-nav-columns.is-desktop #et-secondary-nav.menu li:not(.module-in-menu) ul li a {
+        line-height: 2em;
+      }
+
+      /** Primary Nav Dropdown Text Align **/
+      .is-desktop li.nav-columns:not(.module-in-menu) ul li a,
+      .is-desktop #main-header .nav li:not(.module-in-menu) ul li a {
+        justify-content: ;
+      }
+
+      /** Secondary Nav Dropdown Text Align **/
+      .is-desktop #et-secondary-nav.menu li:not(.module-in-menu) ul li a {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: ;
+      }
+
+      /** Secondary Nav Current Page Item Text Color **/
+      #et-secondary-nav li.current_page_item>a,
+      #et-secondary-nav li.current-menu-item>a:before {
+        color: inherit !important;
+      }
+
+      /** Main Header Nav Dropdown Parent Styles **/
+      .divi-hacks-nav-columns.is-desktop #main-header li.nav-columns:not(.module-in-menu)>ul>li>a {}
+
+      /** Top Header Nav Dropdown Parent Styles **/
+      .divi-hacks-nav-columns.is-desktop #et-secondary-nav li.nav-columns:not(.module-in-menu)>ul>li>a {}
+
+      /** Main Header Current Item Styles **/
+      #main-header li.current_page_item>a {}
+
+      /** Top Header Current Item Styles **/
+      #et-secondary-nav li.current_page_item>a {}
+
+      /** Primary Dropdown Width **/
+      .is-desktop #top-menu li:not(.module-in-menu):not(.nav-columns):not(.mega-menu) ul.sub-menu {
+        width: auto;
+        max-width: 240px;
+      }
+
+      .is-desktop #top-menu li:not(.module-in-menu):not(.nav-columns):not(.mega-menu) ul.sub-menu a {
+        width: calc(240px - 40px);
+      }
+
+      /** Primary Dropdown Link Color **/
+      .is-desktop #top-menu li:not(.module-in-menu):not(.nav-columns) ul.sub-menu a:not(:hover) {
+        color: #ffffff !important;
+      }
+
+      /** Primary Dropdown Line Height **/
+      .is-desktop #top-menu li:not(.module-in-menu):not(.nav-columns) ul.sub-menu a {
+        line-height: 1.2em !important;
+      }
+
+      /** Secondary Dropdown Width **/
+      .is-desktop #et-secondary-nav li:not(.module-in-menu):not(.nav-columns):not(.mega-menu) ul.sub-menu {
+        width: 220px;
+      }
+
+      .is-desktop #et-secondary-nav li:not(.module-in-menu):not(.nav-columns):not(.mega-menu) ul.sub-menu a {
+        width: calc(220px - 2em);
+        margin-left: -1em;
+      }
+
+      /** Secondary Dropdown Link Color **/
+      .is-desktop #et-secondary-nav li:not(.module-in-menu):not(.nav-columns) ul.sub-menu a:not(:hover) {
+        color: inherit !important;
+      }
+
+      /** Secondary Dropdown Line Height **/
+      .is-desktop #et-secondary-nav li:not(.module-in-menu):not(.nav-columns) ul.sub-menu a {
+        line-height: 1.2em !important;
+      }
+
+      /** Primary Nav Columns Width **/
+      .divi-hacks-nav-columns.is-desktop #main-header li.nav-columns:not(.module-in-menu) ul li a {
+        width: 120px !important;
+      }
+
+      /** Secondary Nav Columns Width **/
+      .divi-hacks-nav-columns.is-desktop #et-secondary-nav li.nav-columns:not(.module-in-menu) ul li a {
+        width: 120px !important;
+      }
+
+      /** MOBILE MENU **/
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et-cart-info span:before,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et-cart-info span:before {
+        color: #1b1d1e;
+      }
+
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et_mobile_menu li a,
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et_mobile_menu li a {
+        color: #ffffff;
+      }
+
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .mobile_nav.opened .mobile_menu_bar_toggle::before,
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .mobile_nav.opened .mobile_menu_bar_toggle::before {
+        color: #ffffff;
+      }
+
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .mobile_nav.closed .mobile_menu_bar_toggle::before,
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .mobile_nav.closed .mobile_menu_bar_toggle::before {
+        color: #ffffff;
+      }
+
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header #mobile_menu .current_page_item>a,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header #mobile_menu .current_page_item>a {
+        color: #bca392;
+      }
+
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et_mobile_menu>li>ul.sub-menu,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et_mobile_menu>li>ul.sub-menu li.menu-item a {
+        background-color: rgba(232, 233, 243, 0.11);
+      }
+
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et_mobile_menu li a,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et_mobile_menu li a {
+        letter-spacing: 0px;
+      }
+
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et_mobile_menu .et_mobile_menu>li>a,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et_mobile_menu .et_mobile_menu>li>a {
+        line-height: 1em;
+      }
+
+      .divi-hacks-mobile-menu-fullscreen.is-mobile #main-header .et_mobile_menu .sub-menu>li>a,
+      .divi-hacks-mobile-menu-slide-in.is-mobile #main-header .et_mobile_menu .sub-menu>li>a {
+        line-height: 1em;
+      }
+
+      /*  HEADER   */
+      #top-header {
+        background-image: url('');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      #main-header {
+        background-image: url('https://shilpasuraj.com/wp-content/uploads/2018/08/paper-for-dark-background.png');
+        background-size: fit;
+        background-repeat: repeat;
+        background-position: center;
+      }
+
+      /*  FOOTER   */
+      div#footer-bottom {
+        position: relative;
+        z-index: 1;
+        align-items: center;
+        display: flex;
+      }
+
+     
+
+      /** Secondary Nav Current Page Item Text Color **/
+      #main-footer li.current_page_item>a,
+      #main-footer li.current-menu-item>a:before {
+        color: inherit !important;
+      }
+
+      /** Secondary Nav Font Awesome Icon Size **/
+      .divi-hacks-font-awesome-icons #main-footer .fab>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .far>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fas>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fal>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fa>a:before {
+        font-size: 1em
+      }
+
+      /** Secondary Nav Font Awesome Icon Color **/
+      .divi-hacks-font-awesome-icons #main-footer .fa>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fas>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .far>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fab>a:before,
+      .divi-hacks-font-awesome-icons #main-footer .fal>a:before {
+        color: inherit;
+      }
+
+      /** Main Footer Background **/
+      #main-footer {
+        background-image: url('');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      /** DH Footer Copyright **/
+      .dh-footer-copyright {
+        display: ;
+      }
+
+      /*  CUSTOM CSS  */
+      @media only screen and (max-width:767px) {}
+
+      @media only screen and (max-width:980px) {}
+
+      @media only screen and (min-width:480px) and (max-width:981px) {}
+
+      @media only screen and (min-width:981px) {}
+
+      /** Login Form Error Messages **/
+
+/* from hey_kitty.html */
+.mobile-menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  z-index: 999;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.mobile-menu-container.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-menu-container nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-menu-container nav li {
+  margin-bottom: 20px;
+}
+
+.mobile-menu-container nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.mobile-menu-container nav a:hover {
+  color: #ccc;
+}
+
+.mobile-menu-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 24px;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-container,
+  .mobile-menu-toggle {
+    display: none;
+  }
+}
+
+
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+  .wp-image-220194 {
+    width: auto;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For Tablets (including iPad Pro 11") */
+@media (min-width: 481px) and (max-width: 834px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For iPad Pro 12.9" */
+@media (min-width: 835px) and (max-width: 1024px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For Desktop */
+@media (min-width: 1025px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio on desktop */
+    object-fit: contain; /* Image will scale to fit while maintaining aspect ratio */
+  }
+}
+
+.author_note {
+  text-align: center;
+}
+
+.author_note.h1 {
+  text-align: center;
+}
+
+/* .blockquote {
+    padding: 60px 80px 40px;
+    position: relative;
+}
+.blockquote p {
+    font-family: "Utopia-italic";
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+.blockquote:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  
+  content:"\f10d";
+  font-size: 50px;
+  color: rgba(0,0,0,0.1);
+   
+}
+
+.blockquote::after {
+    content: "";
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    height: 3px;
+    width: 200px;
+} */
+
+
+blockquote {
+  color: #5b544c;
+  font-size: 40px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  padding: 20px; /* Add some padding for aesthetics */
+}
+
+blockquote p {
+  font-style: italic;
+  margin-bottom: 0;
+  position: relative; /* Ensures pseudo-elements are positioned relative to the blockquote */
+}
+
+blockquote p::before,
+blockquote p::after {
+  font-family: Georgia, serif;
+  font-size: 8rem;
+  position: absolute;
+  opacity: 0.7;
+}
+
+blockquote p::before {
+  content: "“";
+  top: -20px; /* Adjust based on font size */
+  left: -40px; /* Adjust to position outside the text */
+}
+
+blockquote p::after {
+  content: "”";
+  bottom: -30px; /* Moves the closing quote to the bottom */
+  right: -40px; /* Moves it to the right of the text */
+}
+
+.carousel {
+  padding: 0.4rem;
+  background: #bdbdbd;
+  box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px;
+  border-radius: 8px;
+  max-width: 1200px;
+  width: 100vw;
+  margin: auto;
+}
+.image-container {
+  gap: 5px;
+  display: flex;
+  overflow-x: auto;
+
+}
+
+.image-container img{
+ height: 600px;
+ width: 800px;
+
+}
+
+.newsletter-signup {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; 
+  margin: 0 auto; /* Center horizontally */
+  gap: 10px;
+}
+
+.email-input {
+  width: 70%; /* 70% for the input */
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px; /* Rounded left side */
+  outline: none;
+}
+
+.signup-button {
+  width: 20%; /* 30% for the button */
+  padding: 10px;
+  font-size: 16px;
+  background-color: black; /* Button color */
+  color: white;
+  border: 1px solid black;
+  border-radius: 0 4px 4px 0; /* Rounded right side */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.signup-button:active {
+  background-color: #004080; /* Even darker when pressed */
+}
+
+.book-section {
+  text-align: center;
+  padding: 20px;
+  /* border-bottom: 1.2px solid rgb(55, 54, 54); */
+}
+
+.book-covers {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.book-covers img {
+  width: 400px; /* Adjust size as needed */
+  height: auto;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px; */
+  box-shadow: 4px 5px 6px 3px rgb(0,0,0,0.5) ;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.book-covers img:hover {
+  transform: scale(1.05);
+}
+
+.book-description {
+    margin: 20px auto; /* Center the description horizontally */
+  width: 70%; /* Limit the width to 70% */
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: center; /* Center-align the text */
+}
+
+.action-button {
+  margin-top: 20px;
+}
+
+.learn-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5a2d1f;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.learn-more:hover {
+  background-color: #3d1e13;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .book-covers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book-covers img {
+    margin-bottom: 15px;
+  }
+
+  .book-description {
+    font-size: 0.9rem;
+  }
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* gap: 20px; */
+  padding: 20px;
+}
+
+.card {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+  /* border: 1px solid #ccc; */
+  /* border-radius: 8px; */
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.1);
+  /* border-top: 2px solid #c0b59c;
+  border-bottom: 1px solid black; */
+}
+
+.card h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.card img {
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 10px;
+  box-shadow: 4px 5px 6px 3px rgb(0,0,0,0.5) ;
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+}
+
+
+.card p {
+  font-size: 1em;
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.card button {
+  background-color: #6a4bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #5430d1;
+}
+/* 
+html {
+  font-family: 'Inter', Arial, sans-serif;
+} */
+
+.row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    padding: 0 20px; /* Adds padding on left and right */
+        }
+
+        .row img {
+            width: 400px;
+            height: auto;
+            margin-left: 20px;
+            box-shadow: 4px 5px 6px 3px rgb(0,0,0,0.5) ;
+        }
+
+        .text {
+            flex: 1;
+        }
+
+        .text h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .text h2 {
+            color: red;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .text p {
+            line-height: 1.6;
+        }
+
+        .buttons {
+            margin-top: auto;
+        }
+
+        .buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-right: 10px;
+            background-color: inherit;
+            color: black;
+            text-decoration: none;
+            border-radius: 30px;
+            border: 1px solid rgb(119, 119, 119);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 170px;
+        }
+
+        .buttons a:hover {
+            background-color: rgb(232, 231, 231);
+        }
+
+        @media (max-width: 768px) {
+            .row {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .row img {
+                margin: 0 auto;
+            }
+
+            .text {
+                text-align: left;
+                margin-top: 20px;
+            }
+            .buttons {
+                text-align: center;
+            }
+
+            .buttons a {
+                margin: 10px auto;
+                display: block;
+                width: 200px;
+            }
+        }
+
+/* from hey_kitty.html */
+@media (max-width: 767px) {
+                              #rights {
+                                font-size: 5px !important;  /* Adjust the font size for mobile */
+                              }
+    
+                              #email {
+                                font-size: 11px !important;  /* Adjust the font size for mobile */
+                              }
+                            }
+
+/* from hey_kitty.html */
+footer {
+      background-color: #66d5d5a7;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      box-shadow: 0px -15px 23px -14px rgba(0,0,0,0.75);
+    }
+    
+    footer p {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      margin: 0;
+    }
+    
+    footer hr {
+      border: 1px solid #39a62b;
+      width: 80px;
+      margin: 10px auto;
+    }
+    
+    footer div {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    
+    footer img {
+      width: 30px;
+      height: 30px;
+    }
+
+/* from blog.html */
+.mobile-menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  z-index: 999;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.mobile-menu-container.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-menu-container nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-menu-container nav li {
+  margin-bottom: 20px;
+}
+
+.mobile-menu-container nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.mobile-menu-container nav a:hover {
+  color: #ccc;
+}
+
+.mobile-menu-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 24px;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-container,
+  .mobile-menu-toggle {
+    display: none;
+  }
+}
+
+
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+  .wp-image-220194 {
+    width: auto;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For Tablets (including iPad Pro 11") */
+@media (min-width: 481px) and (max-width: 834px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For iPad Pro 12.9" */
+@media (min-width: 835px) and (max-width: 1024px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For Desktop */
+@media (min-width: 1025px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio on desktop */
+    object-fit: contain; /* Image will scale to fit while maintaining aspect ratio */
+  }
+}
+
+.author_note {
+  text-align: center;
+}
+
+.author_note.h1 {
+  text-align: center;
+}
+
+/* .blockquote {
+    padding: 60px 80px 40px;
+    position: relative;
+}
+.blockquote p {
+    font-family: "Utopia-italic";
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+.blockquote:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  
+  content:"\f10d";
+  font-size: 50px;
+  color: rgba(0,0,0,0.1);
+   
+}
+
+.blockquote::after {
+    content: "";
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+    position: absolute;
+    height: 3px;
+    width: 200px;
+} */
+
+
+blockquote {
+  color: #5b544c;
+  font-size: 40px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  padding: 20px; /* Add some padding for aesthetics */
+}
+
+blockquote p {
+  font-style: italic;
+  margin-bottom: 0;
+  position: relative; /* Ensures pseudo-elements are positioned relative to the blockquote */
+}
+
+blockquote p::before,
+blockquote p::after {
+  font-family: Georgia, serif;
+  font-size: 8rem;
+  position: absolute;
+  opacity: 0.7;
+}
+
+blockquote p::before {
+  content: "“";
+  top: -20px; /* Adjust based on font size */
+  left: -40px; /* Adjust to position outside the text */
+}
+
+blockquote p::after {
+  content: "”";
+  bottom: -30px; /* Moves the closing quote to the bottom */
+  right: -40px; /* Moves it to the right of the text */
+}
+
+.carousel {
+  padding: 0.4rem;
+  background: #bdbdbd;
+  box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px;
+  border-radius: 8px;
+  max-width: 1200px;
+  width: 100vw;
+  margin: auto;
+}
+.image-container {
+  gap: 5px;
+  display: flex;
+  overflow-x: auto;
+
+}
+
+.image-container img{
+ height: 600px;
+ width: 800px;
+
+}
+
+.newsletter-signup {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; 
+  margin: 0 auto; /* Center horizontally */
+  gap: 10px;
+}
+
+.email-input {
+  width: 70%; /* 70% for the input */
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px; /* Rounded left side */
+  outline: none;
+}
+
+.signup-button {
+  width: 20%; /* 30% for the button */
+  padding: 10px;
+  font-size: 16px;
+  background-color: black; /* Button color */
+  color: white;
+  border: 1px solid black;
+  border-radius: 0 4px 4px 0; /* Rounded right side */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.signup-button:active {
+  background-color: #004080; /* Even darker when pressed */
+}
+
+.row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .card {
+            background-color: inherit;
+            /* color: #fff; */
+            flex: 1 1 calc(33.333% - 20px);
+            max-width: calc(33.333% - 20px);
+            height: 600px; /* Adjust height for longer cards */
+            /* border-radius: 8px; */
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            /* box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.3); */
+            transition: transform 0.3s ease;
+            border:  none;
+            padding: 20px;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .image-container {
+            height: 100%; /* Image takes up 50% of the card */
+            /* overflow: hidden; */
+            box-shadow: 0 4px  20px rgba(0, 0, 0, 0.3);
+            border-radius: 30px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 50%; /* Content takes up remaining 50% */
+            /* border-radius: 8px; */
+            background-color: inherit;
+            /* text-align: center; */
+        }
+
+        .card h3 {
+            /* text-align: center; */
+            font-weight: bolder;
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: black;
+            line-height: 1.4em;
+        }
+
+        .card .date {
+            font-size: 1.6em;
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+
+
+        .card p {
+            /* text-align: center; */
+            flex-grow: 1;
+            margin-bottom: 20px;
+            font-size: 0.8em;
+            color:  black;
+        }
+
+        .card a {
+            color: black;
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: bolder;
+            
+            /* padding-bottom: 10px; */
+        }
+        .card a:hover{
+            color: #0056b3;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(100% - 20px);
+                max-width: calc(100% - 20px);
+            }
+        }
+/* 
+html {
+  font-family: 'Inter', Arial, sans-serif;
+} */
+
+
+
+.blog-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Left, Center, Right */
+  gap: 20px;
+  padding: 30px;
+  align-items: center;
+}
+
+/* Blog Items */
+.blog-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures images maintain aspect ratio and fit properly */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.blog-item:hover .blog-image {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.blog-content {
+  position: absolute;
+  bottom: 0;
+  /* background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)); */
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6));
+
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.category {
+  font-size: 0.9rem;
+  color: #ddd;
+  margin: 0;
+}
+
+.blog-item h3 {
+  margin: 5px 0 0;
+  font-size: 1.1rem;
+  color: white;
+}
+
+/* Blog Sizes */
+.small {
+  height: 250px; /* Height for smaller blogs */
+}
+
+.large {
+  height: 510px; /* Height for the large blog */
+}
+
+/* Left Blogs */
+.left-blogs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Right Blogs */
+.right-blogs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .blog-section {
+    display: flex;
+    flex-direction: column; /* Stack blogs vertically */
+    gap: 20px;
+  }
+
+  .blog-item {
+    height: auto; /* Allow height to adjust dynamically */
+    aspect-ratio: 16 / 9; /* Enforce consistent aspect ratio */
+  }
+
+  .blog-image {
+    object-fit: cover; /* Images will fit properly */
+  }
+
+  .category {
+    font-size: 0.8rem; /* Slightly smaller text */
+  }
+
+  h3 {
+    font-size: 1rem; /* Adjust heading size */
+  }
+}
+
+/* from about.html */
+.mobile-menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  z-index: 999;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.mobile-menu-container.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-menu-container nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-menu-container nav li {
+  margin-bottom: 20px;
+}
+
+.mobile-menu-container nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.mobile-menu-container nav a:hover {
+  color: #ccc;
+}
+
+.mobile-menu-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 24px;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-container,
+  .mobile-menu-toggle {
+    display: none;
+  }
+}
+
+
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+  .wp-image-220194 {
+    width: auto;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For Tablets (including iPad Pro 11") */
+@media (min-width: 481px) and (max-width: 834px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For iPad Pro 12.9" */
+@media (min-width: 835px) and (max-width: 1024px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: 70vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the entire area */
+  }
+}
+
+/* For Desktop */
+@media (min-width: 1025px) {
+  .wp-image-220194 {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio on desktop */
+    object-fit: contain; /* Image will scale to fit while maintaining aspect ratio */
+  }
+}
+
+.author_note {
+  text-align: center;
+}
+
+.author_note.h1 {
+  text-align: center;
+}
+
+
+
+
+blockquote {
+  color: #5b544c;
+  font-size: 40px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  padding: 20px; /* Add some padding for aesthetics */
+}
+
+blockquote p {
+  font-style: italic;
+  margin-bottom: 0;
+  position: relative; /* Ensures pseudo-elements are positioned relative to the blockquote */
+}
+
+blockquote p::before,
+blockquote p::after {
+  font-family: Georgia, serif;
+  font-size: 8rem;
+  position: absolute;
+  opacity: 0.7;
+}
+
+blockquote p::before {
+  content: "“";
+  top: -20px; /* Adjust based on font size */
+  left: -40px; /* Adjust to position outside the text */
+}
+
+blockquote p::after {
+  content: "”";
+  bottom: -30px; /* Moves the closing quote to the bottom */
+  right: -40px; /* Moves it to the right of the text */
+}
+
+.carousel {
+  padding: 0.4rem;
+  background: #bdbdbd;
+  box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px;
+  border-radius: 8px;
+  max-width: 1200px;
+  width: 100vw;
+  margin: auto;
+}
+.image-container {
+  gap: 5px;
+  display: flex;
+  overflow-x: auto;
+
+}
+
+.image-container img{
+ height: 600px;
+ width: 800px;
+
+}
+
+.newsletter-signup {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; 
+  margin: 0 auto; /* Center horizontally */
+  gap: 10px;
+}
+
+.email-input {
+  width: 70%; /* 70% for the input */
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px; /* Rounded left side */
+  outline: none;
+}
+
+.signup-button {
+  width: 20%; /* 30% for the button */
+  padding: 10px;
+  font-size: 16px;
+  background-color: black; /* Button color */
+  color: white;
+  border: 1px solid black;
+  border-radius: 0 4px 4px 0; /* Rounded right side */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.signup-button:active {
+  background-color: #004080; /* Even darker when pressed */
+}
+
+.overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 1.5em;
+    }
+
+/* from about.html */
+.content {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 20px;
+                    }
+                
+                    @media (min-width: 768px) {
+                        .content {
+                            flex-direction: row;
+                            justify-content: space-around;
+                        }
+                        .content img {
+                            max-width: 45%;
+                        }
+                        .content p {
+                            max-width: 45%;
+                        }
+
+                    }
+
+/* from about.html */
+.content2 {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+                        padding: 20px;
+                    }
+            
+                    .content2 img {
+                        width: 100%;
+                        max-width: 300px; /* Ensures image scales nicely on smaller devices */
+                        height: auto;
+                        margin-bottom: 20px;
+                    }
+
+                    #pantser-title {
+            font-size: 40px;
+        }
+            
+                    @media (min-width: 768px) {
+                        .content2 {
+                            flex-direction: row;
+                            justify-content: space-around;
+                            align-items: flex-start;
+                        }
+            
+                        .content2 img {
+                            max-width: 40%; /* Scales image for larger screens */
+                            margin-bottom: 0;
+                        }
+            
+                        .content2 div {
+                            text-align: left;
+                        }
+            
+                        .content2 p {
+                            max-width: 50%; /* Ensures proper layout of the text on larger screens */
+                            padding: 20px;
+                        }
+                        #pantser-title {
+                font-size: 32px; /* Reduce font size for tablets */
+            }
+                    }
+
+/* from about.html */
+@media (max-width: 767px) {
+        #rights {
+          font-size: 5px !important;  /* Adjust the font size for mobile */
+        }
+
+        #email {
+          font-size: 11px !important;  /* Adjust the font size for mobile */
+        }
+      }
+
+/* from about.html */
+footer {
+background-color: #66d5d5a7;
+padding: 20px;
+text-align: center;
+color: white;
+box-shadow: 0px -15px 23px -14px rgba(0,0,0,0.75);
+}
+
+footer p {
+font-family: Arial, sans-serif;
+font-size: 18px;
+margin: 0;
+}
+
+footer hr {
+border: 1px solid #39a62b;
+width: 80px;
+margin: 10px auto;
+}
+
+footer div {
+display: flex;
+justify-content: center;
+gap: 15px;
+margin-top: 10px;
+}
+
+footer img {
+width: 30px;
+height: 30px;
+}
