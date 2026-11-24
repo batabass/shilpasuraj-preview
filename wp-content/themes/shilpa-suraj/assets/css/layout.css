@@ -6,12 +6,16 @@ html, body {
 }
 
 body {
-  background-color: #fff !important;
+  background-color: #f5f5ef;
   color: #212121;
   font-family: Nunito, Helvetica, Arial, Lucida, sans-serif;
   font-size: 17px;
   line-height: 1.7em;
   font-weight: 500;
+}
+
+body.home {
+  background-color: #fff;
 }
 
 body p,
@@ -28,9 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #main-header {
   background-color: #272635 !important;
-  background-image: url("../img/paper-for-dark-background.png");
-  background-repeat: repeat;
-  background-position: center;
+  background-image: none;
 }
 
 #main-header .container,
@@ -105,17 +107,14 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     color: #fff !important;
     font-family: Nunito, Helvetica, Arial, Lucida, sans-serif !important;
-    font-weight: 700 !important;
+    font-weight: 900 !important;
     font-size: 17px !important;
     letter-spacing: 1px !important;
     text-transform: none !important;
-    padding-top: 0 !important;
-    padding-left: 0 !important;
-    padding-bottom: 19px !important;
-    padding-right: 40px !important;
+    padding: 0 40px 19px 0 !important;
     margin-right: -40px !important;
-    line-height: 1.7em !important;
-    white-space: normal;
+    line-height: 14px !important;
+    white-space: nowrap;
   }
 
   .et_vertical_nav #et-main-area {
@@ -149,20 +148,20 @@ h1, h2, h3, h4, h5, h6 {
   body.home .et_pb_section_0 h1 {
     font-family: "Abhaya Libre", Georgia, "Times New Roman", serif !important;
     font-size: 100px !important;
-    line-height: 1.2em !important;
+    line-height: 100px !important;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #fff !important;
     font-weight: 500 !important;
     text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4);
     margin: 0;
-    padding: 0;
+    padding: 0 0 10px;
     text-align: left;
   }
 
   body.home .et_pb_text_1 {
-    margin-top: -41px !important;
-    margin-bottom: -38px !important;
+    margin-top: -14px !important;
+    margin-bottom: 0 !important;
     font-family: Nunito, Helvetica, Arial, Lucida, sans-serif;
     font-size: 26px;
     font-weight: 600;
@@ -205,6 +204,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+#top-menu a,
+#top-menu li a,
+.et_vertical_nav #top-menu > li > a {
+  font-weight: 900 !important;
+  font-size: 17px !important;
+  letter-spacing: 1px !important;
+  text-transform: none !important;
+}
+
 #top-menu .menu-item-has-children > a:after {
   content: "";
   display: inline-block;
@@ -237,12 +245,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .et_vertical_nav #top-menu .sub-menu {
+  display: none;
   position: relative;
   left: 0;
   width: 100%;
   padding-left: 8px;
   background: transparent;
   box-shadow: none;
+}
+
+.et_vertical_nav #top-menu li:hover > .sub-menu,
+.et_vertical_nav #top-menu li:focus-within > .sub-menu {
+  display: block;
 }
 
 .et_vertical_nav #et-main-area {
@@ -641,32 +655,32 @@ a.et_pb_button.learn-more-btn {
 /* Live homepage carousel + books archive cards */
 .carousel {
   padding: 0.4rem;
-  background: #bdbdbd;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  border-radius: 8px;
-  max-width: 1200px;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  max-width: none;
   width: 100%;
   margin: auto;
-  display: block;
+  display: flex;
   overflow: hidden;
 }
 
 .carousel .image-container {
-  gap: 5px;
+  gap: 10px;
   display: flex;
   overflow-x: auto;
   align-items: center;
   justify-content: flex-start;
-  padding: 0;
+  padding: 0 10px;
 }
 
 .carousel .image-container img,
 .carousel .image-container video {
-  height: 600px;
-  width: 800px;
-  max-width: 800px;
+  height: 600px !important;
+  width: auto !important;
+  max-width: 700px;
   object-fit: cover;
-  border-radius: 0;
+  border-radius: 8px;
   flex: 0 0 auto;
 }
 
@@ -728,7 +742,11 @@ a.et_pb_button.learn-more-btn {
 }
 
 body.custom-background {
-  background-color: #ffffff !important;
+  background-color: #f5f5ef;
+}
+
+body.home.custom-background {
+  background-color: #fff;
 }
 
 @media (max-width: 768px) {
