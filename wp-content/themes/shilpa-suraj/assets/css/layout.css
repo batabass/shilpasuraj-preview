@@ -521,20 +521,25 @@ a.et_pb_button.et_pb_button_0 {
   100% { background-position: 0% 50%; }
 }
 
-.updates-page-wrap {
+body.page-template-page-updates,
+body.page-updates {
   background: linear-gradient(120deg, #1d1f33, #a35f3a, #f4e2d8, #ccb592, #301f24);
   background-size: 300% 300%;
   animation: gradientShift 10s ease infinite;
-  padding: 20px 16px 60px;
+}
+
+.updates-page-wrap {
+  background: transparent;
+  padding: 0;
 }
 
 #updates-section {
   padding: 20px;
   max-width: 1200px;
   margin: 20px auto;
-  background: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 .update-cards-container {
@@ -601,19 +606,22 @@ a.et_pb_button.et_pb_button_0 {
 .learn-more-btn,
 a.et_pb_button.learn-more-btn {
   border: 0.7px solid black !important;
-  background-color: transparent !important;
+  background-color: inherit !important;
   border-radius: 25px;
   color: black !important;
   font-size: 15px !important;
   font-weight: 700;
   width: 200px;
   height: 40px;
+  box-sizing: border-box;
   font-family: Inter, Arial, sans-serif;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  line-height: 1 !important;
+  padding: 4.5px 15px !important;
+  line-height: 25.5px !important;
+  text-transform: none;
 }
 
 .et_pb_button_module_wrapper {
@@ -718,6 +726,15 @@ a.et_pb_button.learn-more-btn {
   padding: 20px;
 }
 
+.grid .card {
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+  height: auto;
+  flex: 1 1 auto;
+  justify-self: stretch;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -759,5 +776,85 @@ body.home.custom-background {
 
   .book-covers {
     gap: 24px;
+  }
+}
+
+.post-type-archive-book .et_pb_text_17 {
+  font-size: 15px;
+}
+
+.post-type-archive-book .et_pb_text_17 h2 {
+  font-family: Inter, sans-serif !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  padding-bottom: 10px !important;
+  color: #212121 !important;
+  line-height: 0.9 !important;
+}
+
+.blog-item a {
+  display: block;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.blog-item h3 {
+  color: #fff !important;
+  font-family: Inter, Arial, sans-serif;
+}
+
+@media (min-width: 981px) {
+  .page-template-page-the-author .et_pb_section_0,
+  .page-the-author .et_pb_section_0 {
+    display: block !important;
+    height: 100vh;
+    min-height: 100vh;
+    padding: 54px 0;
+    background-size: cover !important;
+    background-position: right 0 center !important;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+  }
+
+  .page-template-page-the-author .et_pb_section_0 .et_pb_row_1,
+  .page-the-author .et_pb_section_0 .et_pb_row_1 {
+    width: 80%;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 250px 0 27px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .page-template-page-the-author .et_pb_section_0 h1,
+  .page-the-author .et_pb_section_0 h1 {
+    font-family: "Abhaya Libre", Georgia, "Times New Roman", serif !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-shadow: 0.08em 0.08em 0.08em rgba(0, 0, 0, 0.4);
+    margin: 0;
+    font-weight: 500 !important;
+    line-height: 1.1;
+    padding-bottom: 10px;
+  }
+
+  .page-template-page-the-author .et_pb_section_0 .overlay,
+  .page-the-author .et_pb_section_0 .overlay {
+    z-index: 1;
+    font-size: 0;
+  }
+
+  .page-template-page-the-author .et_pb_section_1,
+  .page-the-author .et_pb_section_1 {
+    display: none !important;
+  }
+}
+
+@media (max-width: 980px) {
+  .page-template-page-the-author .et_pb_section_0,
+  .page-the-author .et_pb_section_0 {
+    display: none !important;
   }
 }
